@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\EqualIntergers\EqualIntergers\bin\Debug\EqualIntergers.exe.config
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\EqualIntergers\EqualIntergers\bin\Debug\EqualIntergers.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\EqualIntergers\EqualIntergers\bin\Debug\EqualIntergers.pdb
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\EqualIntergers\EqualIntergers\obj\Debug\EqualIntergers.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\EqualIntergers\EqualIntergers\obj\Debug\EqualIntergers.exe
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\EqualIntergers\EqualIntergers\obj\Debug\EqualIntergers.pdb
