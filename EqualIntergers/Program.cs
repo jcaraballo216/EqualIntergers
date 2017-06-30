@@ -111,48 +111,76 @@ namespace EqualIntergers
             //            }
             //Fizz Buzz
             //Ask user for two numbers and a test number
-            int numberOne;
-            //numberOne is fizz
-            int numberTwo;
-            //numberTwo is buzz
-            int testNumber;
-            
+            //int numberOne;
+            ////numberOne is fizz
+            //int numberTwo;
+            ////numberTwo is buzz
+            //int testNumber;
 
+
+            //Console.WriteLine("Please enter your first number!");
+            //numberOne = int.Parse(Console.ReadLine());
+            //if (numberOne < 1 || numberOne > 9)
+            //{
+            //    Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
+            //}
+            //Console.WriteLine("Please enter your second number!");
+            //numberTwo = int.Parse(Console.ReadLine());
+            //if (numberTwo < 1 || numberTwo > 9)
+            //{
+            //    Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
+            //}
+            //Console.WriteLine("Please enter your Test number!");
+            //testNumber = int.Parse(Console.ReadLine());
+            ////calculation of fizz and buzz
+            //if (testNumber % numberOne == 0 && testNumber % numberTwo == 0)
+            //    {
+            //    Console.WriteLine("FizzBuzz!");
+            //}
+            //else if (testNumber % numberOne == 0)
+            //{
+            //    Console.WriteLine("Fizz!");
+            //}
+            //else if (testNumber % numberTwo == 0)
+            //{
+            //    Console.WriteLine("Buzz");
+            //}
+            //else if (testNumber < 1 || testNumber > 9)
+            //{
+            //    Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(testNumber);
+            //}
+
+            //Greater value problem
+            //Ask user to input two numbers
+            //Find the greater value of the two intergers
+            //Make error message if user inputs words
+
+            //first number
+            int valueOne;
+            //second number
+            int valueTwo;
+            Console.WriteLine("Hello! Welcome to <> Value. You will be asked to input two seperate numbers.");
             Console.WriteLine("Please enter your first number!");
-            numberOne = int.Parse(Console.ReadLine());
-            if (numberOne < 1 || numberOne > 9)
-            {
-                Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
-            }
+            valueOne = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter your second number!");
-            numberTwo = int.Parse(Console.ReadLine());
-            if (numberTwo < 1 || numberTwo > 9)
+            valueTwo = int.Parse(Console.ReadLine());
+            if (valueOne > valueTwo)
             {
-                Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
+                Console.WriteLine(valueOne + " is greater than "  + valueTwo);
             }
-            Console.WriteLine("Please enter your Test number!");
-            testNumber = int.Parse(Console.ReadLine());
-            //calculation of fizz and buzz
-            if (testNumber % numberOne == 0 && testNumber % numberTwo == 0)
-                {
-                Console.WriteLine("FizzBuzz!");
-            }
-            else if (testNumber % numberOne == 0)
+            else if (valueTwo > valueOne)
             {
-                Console.WriteLine("Fizz!");
-            }
-            else if (testNumber % numberTwo == 0)
-            {
-                Console.WriteLine("Buzz");
-            }
-            else if (testNumber < 1 || testNumber > 9)
-            {
-                Console.WriteLine("You did not follow directions! Please enter a number between 1 and 9");
+                Console.WriteLine(valueTwo + " is greater than "  + valueOne);
             }
             else
             {
-                Console.WriteLine(testNumber);
+                Console.WriteLine("Error! You did not follow directions. Please try again!");
             }
+             
 
 
 
